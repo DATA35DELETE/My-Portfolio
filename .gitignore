@@ -1,0 +1,28 @@
+# Android / Gradle Derleme Dosyaları (Boyutları büyüktür, GitHub'da yer kaplamamalı)
+/build
+*/build/
+captures/
+.externalNativeBuild
+.cxx
+local.properties
+
+# Derlenmiş Uygulama ve Sınıf Dosyaları
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Android Studio / IntelliJ IDEA Ayarları (Senin bilgisayarına özel ayarlar)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Güvenlik ve Şifre Dosyaları (En önemlisi! Asla GitHub'a atılmamalı)
+*.jks
+*.keystore
+
+# İşletim Sistemi Kalıntıları (Mac veya Windows'un oluşturduğu gizli dosyalar)
+.DS_Store
+Thumbs.db
